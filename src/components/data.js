@@ -36,7 +36,7 @@ export const projectData = [
 		title: 'Portfolio Website',
 		description:
 			'A single page developer portfolio website made using NEXT.js',
-		gitHubLink: 'https://github.com/aradhya-7-7/url-shortener',
-		link: 'https://url-shortener-beryl-two.vercel.app/',
+		gitHubLink: 'https://github.com/aradhya-7-7/Portfolio',
+		link: 'https://portfolio-aradhya-7-7s-projects.vercel.app/',
 	},
 ];
