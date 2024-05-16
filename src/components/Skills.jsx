@@ -39,11 +39,11 @@ const Skills = () => {
                     <i className="fa-sharp fa-solid fa-c"></i>
                     <p>C language</p>
                 </div>
-                <div className="skill-card C">
+                <div className="skill-card CLI">
                     <i className="a-sharp fa-solid fa-terminal"></i>
                     <p>CLI</p>
                 </div>
-                <div className="skill-card C++">
+                <div className="skill-card CPP">
                     <i className="font-roboto font-bold">C++</i>
                     <p>C++</p>
                 </div>

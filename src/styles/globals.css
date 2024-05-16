@@ -289,8 +289,32 @@ hr {
   background-color: #339933;
 }
 
-.skills-container .grid-skills .python:hover {
-  background-color: #3776AB;
+.skills-container .grid-skills .mongodb:hover {
+  background-color: #00684a;
+}
+
+.skills-container .grid-skills .git:hover {
+  background-color: #f05033;
+}
+
+.skills-container .grid-skills .vue:hover {
+  background-color: #3fb984;
+}
+
+.skills-container .grid-skills .C:hover {
+  background-color: #6196cb;
+}
+
+.skills-container .grid-skills .C:hover {
+  background-color: #6196cb;
+}
+
+.skills-container .grid-skills .CLI:hover {
+  background-color: #002456;
+}
+
+.skills-container .grid-skills .CPP:hover {
+  background-color: #293693;
 }
 
 /* Projects */
@@ -361,31 +385,50 @@ hr {
 }
 
 /* contact */
-.contact-container {
-  padding: 2rem 0 4rem;
+.headingform {
+  display: flex;
+        justify-content: center; /* Horizontally center content */
+        align-items: center;
+}
+
+.formElement {
+  display: flex;
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  width: 80%;
-  margin: 0 auto;
+  margin: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .contact-container {
-    width: 100%;
-  }
+.formElement label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #dadadb;
 }
 
-.contact-container h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
+.formElement input[type="text"],
+.formElement input[type="email"],
+.formElement textarea {
+  margin: 5px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
 }
 
-.contact-container p {
-  font-size: 1rem;
-  font-weight: 400;
-  margin-bottom: 1rem;
-  text-align: center;
+.formElement input[type="submit"] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffcc17;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formElement input[type="submit"]:hover {
+  background-color: #c29800;
 }
