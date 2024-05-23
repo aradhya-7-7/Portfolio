@@ -68,12 +68,12 @@ const Footer = () => {
                         <i className="fa-brands fa-linkedin"></i>
                     </a>
                     <a
-                        href="https://medium.com/@aradhya610"
+                        href="https://hashnode.com/@aradhya7"
                         aria-label="Medium"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <i className="fa-brands fa-medium"></i>
+                        <i className="fa-brands fa-hashnode"></i>
                     </a>
                 </div>
             </div>
